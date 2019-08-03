@@ -39,6 +39,8 @@ namespace Lab2
             //age = (float)ageTextBox.Text;
 
             clearTextBox();
+
+   
         }
 
         private void clearTextBox()
@@ -74,7 +76,6 @@ namespace Lab2
             }
             catch
             {
-                submitButton.Enabled = false;
                 condition1 = false;
             }
             condition2 = (nameTextBox.Text.Length >= 2) ? true : false;
